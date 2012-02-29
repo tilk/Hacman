@@ -1,0 +1,16 @@
+Name: Hacman
+Version: 0.1
+License: BSD3
+License-File: LICENSE
+Author: Marek Materzok
+Build-Type: Simple
+Stability: experimental
+Cabal-Version: >= 1.2
+Homepage: https://github.com/tilk/Hacman
+Category: Game
+Synopsis: Pacman in Haskell
+
+Executable hacman
+    Main-is: Main.hs
+    Build-Depends: base, gtk, mtl, array, cairo, colour, containers, craftwerk, NumInstances, DysFRP, DysFRP-Cairo, DysFRP-Craftwerk
+
